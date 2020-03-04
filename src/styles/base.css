@@ -60,6 +60,11 @@ form {
   background-color: #F90014;
 }
 
+.types {
+  display: flex;
+  justify-content: space-around;
+}
+
 .type-poke {
   background-color: #000000;
   height: 25px;
