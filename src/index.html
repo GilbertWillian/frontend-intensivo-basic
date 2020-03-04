@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéDex</title>
+
+  <script src="https://kit.fontawesome.com/bf26290028.js" crossorigin="anonymous"></script>
+  <link href="../node_modules//bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <link href="styles/base.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand">
+    <img class="logo" src="./img/pokeball.png" alt="Logo pokeball">
+    <a class="logoText" href="#">PokéDex</a>
+
+    <ul class="navbar-nav">
+      <li>
+        <a class="nav-item" href="#">Lista de Pokémons</a>
+      </li>
+      <li>
+        <a class="nav-item" href="#">Gerações</a>
+      </li>
+      <li>
+        <a class="nav-item" href="#">Sobre</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container search-box">
+      <form class="flex">
+        <input class="form-control form-control-lg" placeholder="Qual o Pokémon?">
+        <button class="btn btn-secondary btn-lg" type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="bg-light">
+      <div class="container">
+        <div class="results-box">
+
+          <div class="card text-white bg-card mb-3" style="max-width: 18rem;">
+            <div class="card-header">Nome do Pokémon</div>
+            <div class="card-body">
+              <h5 class="card-title">Tipos</h5>
+              <div class="types">
+                <div class="type-poke">
+                  <p>Fogo</p>
+                </div>
+                <div class="type-poke">
+                  <p>Fogo</p>
+                </div>
+              </div>
+              <h5 class="card-title">Fraquezas</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+
+<div class="type-poke">
+  <p>Fogo</p>
+</div>
+
+</html>
